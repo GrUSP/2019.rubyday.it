@@ -13,8 +13,8 @@ schedule_available: false
 training_available: false
 
 iubenda:
-  cookiePolicyId: 49761585
-  siteId: 1473899
+  cookiePolicyId: 13404179
+  siteId: 1485759
   lang: en
   enableRemoteConsent: true
   localConsentDomain: rubyday.it
