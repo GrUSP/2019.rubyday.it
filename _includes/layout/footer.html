@@ -13,12 +13,14 @@
           Browse past editions:
           <div class="footer__past-editions-items">
             {% for year in (site.data.conference.since..site.data.conference.year) %}
-              {% if forloop.last == false %}
-                {% if forloop.first == false %}
-                  <span>|</span>
+              {% unless year == 2017 or year == 2018 %}
+                {% if forloop.last == false %}
+                  {% if forloop.first == false %}
+                    <span>|</span>
+                  {% endif %}
+                  <a class="footer__past-edition" href="http://{{ year }}.{{ site.data.conference.slug }}.it">{{ year }}</a>
                 {% endif %}
-                <a class="footer__past-edition" href="http://{{ year }}.{{ site.data.conference.slug }}.it">{{ year }}</a>
-              {% endif %}
+              {% endunless %}
             {% endfor %}
           </div>
         </div>
