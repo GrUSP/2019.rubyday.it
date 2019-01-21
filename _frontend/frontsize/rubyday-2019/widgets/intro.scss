@@ -60,11 +60,11 @@
     
     @include media ('>=tablet-large') {
       font-size: 120px;
-      margin-top: s(9);
+      margin-top: s(19);
     }
     
     @include media ('>=desktop-large') {
-      font-size: 130px;
+      font-size: 230px;
     }
   }
 
@@ -125,7 +125,7 @@
     transition: background-color 0.25s ease-out;
     width: 50%;
     z-index: 1;
-    
+
     &:hover {
       background-color: $color-purple;
     }
@@ -151,6 +151,10 @@
         display: none;
       }
     }
+
+    @include media ('>=desktop-large') {
+      bottom: 50px;
+    }
   }
 
   @include element ('icon') {
@@ -171,5 +175,5 @@
     right: 0;
     bottom: 0;
     background: #fff;
-    opacity: 0.3;
+    opacity: 0.55;
 }
