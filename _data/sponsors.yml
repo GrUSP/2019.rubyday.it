@@ -21,6 +21,9 @@ main:
     - 5 tickets with 50% discount
   max: 1
   list:
+    -
+      url: https://nebulab.it/
+      image: nebulab.svg
 
 diamond:
   price: € 5,000
@@ -36,6 +39,9 @@ diamond:
     - 5 tickets with 20% discount
   max: 2
   list:
+    -
+      url: https://dev.welaika.com/
+      image: welaika.svg
 
 platinum:
   price: € 3,000
