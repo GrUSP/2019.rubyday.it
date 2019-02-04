@@ -22,7 +22,7 @@ main:
   max: 1
   list:
     -
-      url: https://nebulab.it/
+      url: https://nebulab.it/?utm_source=rubyday
       image: nebulab.svg
 
 diamond:
@@ -43,7 +43,7 @@ diamond:
       url: https://www.uala.it/?utm_source=rubyday
       image: uala.svg
     -
-      url: https://dev.welaika.com/
+      url: https://dev.welaika.com/?utm_source=rubyday
       image: welaika.svg
 
 platinum:
@@ -73,7 +73,7 @@ gold:
   max: 8
   list:
     -
-      url: https://www.workwave.com/
+      url: https://www.workwave.com/?utm_source=rubyday
       image: workwave.svg
 
 silver:
