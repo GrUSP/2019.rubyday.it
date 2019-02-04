@@ -40,6 +40,9 @@ diamond:
   max: 2
   list:
     -
+      url: https://www.uala.it/?utm_source=rubyday
+      image: uala.svg
+    -
       url: https://dev.welaika.com/
       image: welaika.svg
 
