@@ -3,6 +3,30 @@
 # description is actually the company the speaker is working for
 list:
 
+-
+   id: luca-guidi
+   description:
+   image: luca-guidi.jpg
+   first_name: Luca
+   last_name: guidi
+   twitter: jodosha
+   
+#  -
+#    id: Bozhidar-Batsov
+#    description:
+#    image: bozhidar-batsov.jpg
+#    first_name: Bozhidar	
+#    last_name: Batsov
+#    twitter: bbatsov
+
+#  -
+#    id: Xavier-Noria
+#    description:
+#    image: xavier-noria.jpg
+#    first_name: Xavier	
+#    last_name: Noria	
+#    twitter: fxn
+
 #  -
 #    id:
 #    description:
