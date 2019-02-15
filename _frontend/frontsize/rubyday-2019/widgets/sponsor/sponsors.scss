@@ -45,9 +45,9 @@
   @include element ('thanks') {
     @include title-uppercase;
     color: $color-text-info;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
-    margin-bottom: s(-18);
+    margin-top: s(4);
     padding-left: s(2);
     padding-right: s(2);
     position: relative;
@@ -59,23 +59,23 @@
     }
 
     @include media ('>mobile-small') {
-      font-size: 75px;
+      font-size: 30px;
     }
 
     @include media ('>mobile-large') {
-      font-size: 100px;
+      font-size: 50px;
     }
 
     @include media ('>tablet-small') {
-      font-size: 150px;
+      font-size: 75px;
     }
 
     @include media ('>tablet-large') {
-      font-size: 200px;
+      font-size: 100px;
     }
 
     @include media ('>desktop-small') {
-      font-size: 250px;
+      font-size: 150px;
     }
   }
 
@@ -105,6 +105,7 @@
 
   @include element ('contents') {
     background-color: $color-background;
+    margin-top: 3em;
   }
 
   @include element ('link') {
@@ -113,7 +114,7 @@
     transition: background-color 0.25s ease-in-out;
 
     &:hover {
-      background-color: $color-background-sponsor-hover;
+      background-color: transparent;
     }
   }
 
@@ -139,14 +140,9 @@
   @include element ('title') {
     @include title-uppercase;
     font-size: $font-size-title;
-    left: s(-2);
-    line-height: s(2);
-    position: absolute;
-    text-align: right;
-    top: 180px;
-    transform: rotate(-90deg);
-    transform-origin: 0% 100%;
-    width: 200px;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 3px solid $color-jordy-blue;
   }
 
   @include element ('title-right') {
@@ -155,6 +151,18 @@
     margin-bottom: s(3);
     margin-top: s(8);
     text-align: right;
+  }
+
+  @include element ('main-column') {
+    background-color: transparent !important;
+  }
+
+  @include element ('diamond-column') {
+    background-color: transparent !important;
+  }
+
+  @include element ('gold-column') {
+    background-color: transparent !important;
   }
 
   @include element ('main') {
