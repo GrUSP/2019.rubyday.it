@@ -40,7 +40,6 @@
   }
 
   @include element ('logos') {
-    margin-top: s(13);
     text-align: center;
 
     @include media ('<desktop-small') {
