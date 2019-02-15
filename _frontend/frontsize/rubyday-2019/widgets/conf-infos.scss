@@ -40,7 +40,6 @@
   }
 
   @include element ('logos') {
-    margin-top: s(13);
     text-align: center;
 
     @include media ('<desktop-small') {
@@ -50,6 +49,7 @@
 
   @include element ('logo') {
     padding: s(2);
+    max-height: 300px;
   }
 
   @include element ('column') {

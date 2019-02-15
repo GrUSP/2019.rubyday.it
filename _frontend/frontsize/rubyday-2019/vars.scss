@@ -47,10 +47,11 @@ $color-text: $color-mine-shaft;
 $color-twitter-link: $color-purple;
 $color-text-venue: $color-carnation;
 
-$font-family-header: $font-family-sans;
-$font-family-speaker: $font-family-sans;
-$font-family-text: $font-family-sans;
-$font-family-title: $font-family-serif;
+$font-family-base: "Quicksand", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-header: $font-family-base;
+$font-family-speaker: $font-family-base;
+$font-family-text: $font-family-base;
+$font-family-title: $font-family-base;
 
 $color-background-talk-highlight: transparent;
 

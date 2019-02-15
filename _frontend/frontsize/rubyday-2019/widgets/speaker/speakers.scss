@@ -1,7 +1,7 @@
 @include block ('speakers') {
-  margin-left: s(-2);
-  margin-right: s(-2);
-  width: auto;
+  width: 100%;
+  font-size: 0;
+  text-align: center;
 
   @include float-row((
       '<tablet-small': 2,
@@ -9,27 +9,27 @@
       ('>=tablet-large', '<desktop-small'): 4,
       '>=desktop-small': 5,
   ));
+  @include element ('column') {}
 
-  @include element ('column') {
-    @include modifier ('cfp') {
-      font-family: $font-family-title;
-      font-style: italic;
-      font-weight: 700;
-      line-height: 42px;
-      padding: s(4);
+  @include element ('cfp') {
+    font-family: $font-family-title;
+    font-style: italic;
+    font-size: initial;
+    font-weight: 700;
+    line-height: 42px;
+    padding: s(4);
 
-      @include media ('<tablet-small') {
-        padding: 0;
-        width: 100%;
-      }
-
-      .button {
-        display: block;
-
-        &:hover {
-          color: $color-text-info;
-        }
-      }
+    @include media ('<tablet-small') {
+      padding: 0;
+      width: 100%;
     }
+
+    .button {
+      display: block;
+    }
+  }
+  @include element ('column') {
+    display: inline-block;
+    float: none;
   }
 }
