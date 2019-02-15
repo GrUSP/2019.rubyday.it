@@ -49,6 +49,7 @@
 
   @include element ('logo') {
     padding: s(2);
+    max-height: 300px;
   }
 
   @include element ('column') {
