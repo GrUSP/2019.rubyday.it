@@ -74,6 +74,16 @@
     }
   }
 
+  @include element ('speaker-description') {
+    clear: both;
+    float: left;
+    font-size: 15px;
+
+    & + & {
+      margin-top: s(1);
+    }
+  }
+
   @include element ('title') {
     @include where-when;
     background-color: $color-background-talk-title;
