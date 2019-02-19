@@ -4,14 +4,14 @@
 list:
   -
     id: luca-guidi
-    description:
+    description: Author of Hanami
     image: luca-guidi.jpg
     first_name: Luca
     last_name: Guidi
     twitter: jodosha
   -
     id: Xavier-Noria
-    description:
+    description: Ruby on Rails core team
     image: xavier-noria.jpg
     first_name: Xavier	
     last_name: Noria	
