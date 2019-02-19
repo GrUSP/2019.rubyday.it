@@ -8,6 +8,11 @@
     }
   }
 
+  a {
+    text-decoration: none;
+    color: $color-twitter-link;
+  }
+
   @include element ('pic') {
     background-position: 50% 50%;
     background-repeat: no-repeat;
