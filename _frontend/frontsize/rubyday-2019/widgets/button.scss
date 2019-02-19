@@ -18,6 +18,10 @@
     margin-left: s(-2);
   }
 
+  @include modifier ('reverse') {
+    background-color: $color-white !important;
+  }
+
   @include modifier ('register') {
     background-color: $color-background-action;
     color: $color-text-action;
