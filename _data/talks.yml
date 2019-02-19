@@ -4,7 +4,6 @@
   keynote:
   extract: >
     Hanami is being reinvented. We learned from experience, and community feedback, how to build a much more simplified, fast, and productive framework. This is a preview of how Hanami 2.0 will work.
-
 -
   speaker_id: Xavier-Noria
   title: Zeitwerk: A new code loader for Ruby
