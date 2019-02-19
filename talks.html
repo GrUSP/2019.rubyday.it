@@ -12,12 +12,6 @@ title: Talks
     </h1>
   </div>
 
-  <div class="talks-intro">
-    <h2 class="talks-intro__date">
-      {{ site.data.conference.where_when }}
-    </h2>
-  </div>
-
   {% for talk in site.data.talks %}
     {% include talks/talk.html talk=talk %}
   {% endfor %}
