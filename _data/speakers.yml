@@ -9,6 +9,13 @@ list:
     first_name: Luca
     last_name: Guidi
     twitter: jodosha
+  -
+    id: Xavier-Noria
+    description:
+    image: xavier-noria.jpg
+    first_name: Xavier	
+    last_name: Noria	
+    twitter: fxn
 
 #  -
 #    id: Bozhidar-Batsov
@@ -18,13 +25,7 @@ list:
 #    last_name: Batsov
 #    twitter: bbatsov
 
-#  -
-#    id: Xavier-Noria
-#    description:
-#    image: xavier-noria.jpg
-#    first_name: Xavier	
-#    last_name: Noria	
-#    twitter: fxn
+
 
 #  -
 #    id:
