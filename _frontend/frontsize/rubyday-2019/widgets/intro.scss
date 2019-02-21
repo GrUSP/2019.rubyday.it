@@ -138,7 +138,7 @@
   }
 
   @include element ('icon') {
-    float: left;
+    float: none;
     font-size: 40px;
     position: relative;
     transition: left 0.125s ease-out;
