@@ -10,6 +10,12 @@
   keynote:
   extract: >
     Zeitwerk is a new code loader for Ruby, and it is going to replace the classic autoloader in Rails 6. In this talk we'll cover what motivated Zeitwerk, how to use it, and interesting aspects of its implementation.
+-
+  speaker_id: Marion-Schleifer
+  title: "Building modern web-applications with GraphQL & serverless Ruby"
+  keynote:
+  extract: >
+    Many Ruby programmers are looking for new opportunities now that serverless is becoming more popular. Hasura offers instant realtime GraphQL on Postgres as a serverless backend option. And the best part: you can still use Ruby to write the business logic for the backend! Using a sample application, I will show you how to build fast web applications with a Vue frontend and a backend running on Hasura’s GraphQL engine. We will explore how the different components work together and how you can take full advantage of the combination of these technologies.
 
 #-
 #  speaker_id: Bozhidar-Batsov
