@@ -16,6 +16,14 @@ list:
     first_name: Xavier	
     last_name: Noria	
     twitter: fxn
+  -
+    id: Marion-Schleifer
+    description: Software Developer, Community Lead & Organizer
+    image: Marion-Schleifer.jpg
+    first_name: Marion	
+    last_name: Schleifer
+    twitter: rubydwarf
+    
 
 #  -
 #    id: Bozhidar-Batsov
