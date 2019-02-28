@@ -12,57 +12,57 @@
     height: auto !important;
     min-height: 0;
   }
-  
+
   @include modifier ('rubyday') {
     background-color: $color-background-info;
     background-position: 50% 50%;
     background-size: cover;
   }
-  
+
   @include media ('<mobile-large') {
     min-height: 420px;
     //margin-top: 50px;
   }
-  
+
   @include media ('>=mobile-large') {
     min-height: 100vh;
     //margin-top: 20px;
   }
-  
+
   @include media ('>=tablet-small') {
     min-height: 550px;
   }
-  
+
   @include media ('>=tablet-large') {
     min-height: 750px;
   }
-  
+
   @include media ('>=desktop-large') {
     min-height: 100vh;
   }
-  
+
   @include element ('title') {
     font-family: $font-family-header;
     font-size: 38px;
     margin-top: s(4);
     margin-bottom: s(3);
 
-    
+
     @include media ('>=mobile-large') {
       font-size: 60px;
       margin-top: s(7);
     }
-    
+
     @include media ('>=tablet-small') {
       font-size: 80px;
       margin-top: s(9);
     }
-    
+
     @include media ('>=tablet-large') {
       font-size: 120px;
       margin-top: s(19);
     }
-    
+
     @include media ('>=desktop-large') {
       font-size: 230px;
     }
@@ -107,7 +107,7 @@
     z-index: 1;
 
     &:hover {
-      background-color: $color-purple;
+      background-color: $color-background-action-hover;
     }
 
     @include modifier ('sold-out') {
@@ -145,7 +145,7 @@
   }
 }
 
-// overlay is hidden, 
+// overlay is hidden,
 // we don't need an overlay with the new image
 .intro--rubyday:before {
     content: "";
@@ -154,6 +154,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fff;
+    background: $color-hero-filter;
     opacity: 0.55;
 }

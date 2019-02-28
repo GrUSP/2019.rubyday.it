@@ -1,9 +1,10 @@
 @include block ('newsletter') {
-  background-color: $color-background-dark;
+  background-color: $color-background-newsletter;
   clear: both;
-  color: $color-text-form;
-  margin-bottom: s(-12);
-  padding: s(2) 0 s(20);
+  color: $color-text-newsletter;
+  padding: s(2) s(2);
+  line-height: 1.6;
+  margin-bottom: s(2);
 
   @include element ('title') {
     @include title-uppercase;
@@ -38,14 +39,14 @@
 
   @include element ('email') {
     @include where-when;
-    background-color: $color-background-dark;
+    background-color: $color-background-form;
     border: 0;
     border-bottom: 2px solid $color-text-form;
     color: $color-text-form;
     display: block;
     font-size: 20px;
-    margin-top: s(6);
-    padding: s(2) 0;
+    margin-top: s(2);
+    padding: s(2) s(2);
     text-transform: lowercase;
     transition: border 0.25s ease-in-out;
     width: 100%;
@@ -67,17 +68,16 @@
     }
 
     &:focus {
-      border-bottom-color: $color-background-action;
+      // border-bottom-color: $color-background-action;
       outline: 0;
 
       &::placeholder {
-        color: mix($color-text-form, $color-background-dark, 20%);
+        color: mix($color-text-form, $color-background-form, 15%);
       }
     }
 
     &::placeholder {
-      color: $color-text-form;
-      text-transform: capitalize;
+      color: mix($color-text-form, $color-background-form, 40%);
       transition: color 0.25s ease-in-out;
     }
 
@@ -91,7 +91,7 @@
 
   @include element ('language') {
     @include title-uppercase;
-    margin-top: s(6);
+    margin-top: s(2);
     user-select: none;
 
     label {
@@ -101,14 +101,23 @@
 
   @include element ('link') {
     @include title-uppercase;
-    color: $color-background-action;
+    color: inherit;
+    text-decoration: underline;
     transition: color 0.25s ease-in-out;
 
     &:hover {
-      color: $color-text-info;
+      // color: $color-text-info;
     }
   }
 
   @include input-newsletter('radio', 'icon-circle', 'icon-circle-empty');
   @include input-newsletter('checkbox', 'icon-check', 'icon-check-empty', -5px);
+
+  @include element ('radio') {
+    span { border-bottom: 1px dotted $color-white; }
+  }
+
+  @include element ('checkbox') {
+    span { border-bottom: 1px dotted $color-white; }
+  }
 }
