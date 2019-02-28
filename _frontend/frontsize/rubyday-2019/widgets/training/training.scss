@@ -1,30 +1,29 @@
 @include block ('training-intro') {
-  margin-top: s(8);
   margin-bottom: s(8);
 
   @include element ('title') {
     @include title-uppercase;
     color: $color-text-info;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1;
     margin: auto;
-    margin-bottom: -25px;
-    margin-top: s(-9);
+    // margin-bottom: -15px;
+    padding-top: 0;
     text-align: center;
     z-index: -1;
 
     @include media ('>=mobile-large') {
-      font-size: 90px;
-      margin-top:  s(-8);
+      font-size: 80px;
+      // margin-top:  s(-8);
     }
 
     @include media ('>=tablet-small') {
-      font-size: 150px;
-      margin-top: s(-10);
+      font-size: 128px;
+      // margin-top: s(-10);
     }
 
     @include media ('>=tablet-large') {
-      font-size: 205px;
+      font-size: 175px;
       user-select: none;
     }
   }
@@ -40,7 +39,7 @@
       font-size: 28px;
       margin-bottom: s(2);
       margin-left: s(4);
-      margin-top: s(-8);
+      margin-top: s(-6);
       text-align: left;
     }
 
@@ -48,14 +47,14 @@
       font-size: 45px;
       margin-bottom: s(4);
       margin-left: s(8);
-      margin-top: s(-12);
+      margin-top: s(-8);
     }
 
     @include media ('>=tablet-large') {
       font-size: 45px;
       margin-bottom: s(4);
       margin-left: s(8);
-      margin-top: s(-17.5);
+      margin-top: s(-10);
     }
   }
 }
