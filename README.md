@@ -23,45 +23,25 @@ The source code is built inside `/css` and `/js` folder in the root of the proje
 
 ## Installation
 
-Ensure to have [Jekyll](jekyll) installed with this command:
+Run the setup with this command (requires Ruby 2.6.1 & Node.js 8)
 
 ```
-sudo gem install jekyll
-```
-
-Install [nodejs](nodejs) and the components you need:
-
-```
-npm install && cp node_modules/dustman/gulpfile.js .
+bin/setup
 ```
 
 ---
 
 ## Build
 
-#### HTML
+#### HTML/CSS/JS
 
-To build the site with [HTTP server](localhost):
-
-```
-jekyll serve
-```
-
-#### CSS and JavaScript
-
-Now you can watch your CSS build with this:
+To start the local server:
 
 ```
-./node_modules/.bin/gulp watch -S --config dustman-conference-name.yml
+bin/server
 ```
 
-#### CSS and JavaScript + view HTML pages
-
-```
-./node_modules/.bin/gulp -S --config dustman-conference-name.yml && jekyll serve
-```
-
-For test the local view go to [http://127.0.0.1:4000](localhost)
+and then visit [http://localhost:4000](localhost:4000)
 
 ---
 
