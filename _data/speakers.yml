@@ -23,15 +23,13 @@ list:
     first_name: Marion	
     last_name: Schleifer
     twitter: rubydwarf
-    
-
-#  -
-#    id: Bozhidar-Batsov
-#    description:
-#    image: bozhidar-batsov.jpg
-#    first_name: Bozhidar	
-#    last_name: Batsov
-#    twitter: bbatsov
+  -
+    id: Bozhidar-Batsov
+    description: Author of RuboCop
+    image: bozhidar-batsov.jpg
+    first_name: Bozhidar	
+    last_name: Batsov
+    twitter: bbatsov
 
 
 
