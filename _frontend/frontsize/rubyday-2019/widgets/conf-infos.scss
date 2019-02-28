@@ -1,10 +1,11 @@
 @include block ('conf-infos') {
 
   margin-top: s(5);
+  margin-bottom: s(3);
 
-  @include media ('<desktop-small') {
-    margin-top: s(15);
-  }
+  // @include media ('<desktop-small') {
+  //   margin-top: s(15);
+  // }
 
   @include float-row((
       '<=mobile-large': 1,

@@ -27,7 +27,7 @@
     color: $color-text-action;
 
     &:hover {
-      background-color: $color-purple;
+      background-color: $color-background-action-hover;
       color: $color-text-action;
     }
   }
@@ -117,7 +117,7 @@
   }
 
   @include modifier ('menu') {
-    background-color: $color-background-dark;
+    background-color: $color-background-menu;
     float: right;
     height: 38px;
     margin-left: s(2);
@@ -125,7 +125,7 @@
     width: 38px;
 
     &:hover {
-      background-color: $color-purple;
+      background-color: $color-background-menu-hover;
       color: $color-text-action;
     }
 

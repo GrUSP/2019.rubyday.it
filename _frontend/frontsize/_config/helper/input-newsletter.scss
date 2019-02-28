@@ -15,14 +15,14 @@
       transition: $transition;
 
       &:hover {
-        color: $color-purple;
+        // color: $color-purple;
       }
     }
   }
 
   @include element ('input-#{$type}') {
     display: none;
-    @include title-uppercase;
+    // @include title-uppercase;
 
     & + .#{$selector-not-checked} {
       display: inline-block;
@@ -38,11 +38,11 @@
       }
 
       & + .#{$selector-not-checked} + .#{$selector-checked} {
-        color: $color-text-info;
+        // color: $color-text-info;
         display: inline-block;
 
         & + span {
-          color: $color-text-info;
+          // color: $color-text-info;
         }
       }
     }
@@ -50,7 +50,7 @@
 
   .#{$selector-not-checked},
   .#{$selector-checked} {
-    color: $color-text-info;
+    // color: $color-text-info;
     cursor: pointer;
     transition: $transition;
   }

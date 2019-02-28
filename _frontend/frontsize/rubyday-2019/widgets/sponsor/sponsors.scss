@@ -44,7 +44,7 @@
 
   @include element ('thanks') {
     @include title-uppercase;
-    color: $color-text-info;
+    color: $color-text-thanks;
     font-size: 30px;
     line-height: 1;
     margin-top: s(4);
@@ -80,7 +80,7 @@
   }
 
   @include element ('became') {
-    @include where-when;
+    // @include where-when;
     font-size: 18px;
     margin-top: s(4);
 
@@ -153,17 +153,17 @@
     text-align: right;
   }
 
-  @include element ('main-column') {
-    background-color: transparent !important;
-  }
-
-  @include element ('diamond-column') {
-    background-color: transparent !important;
-  }
-
-  @include element ('gold-column') {
-    background-color: transparent !important;
-  }
+  // @include element ('main-column') {
+  //   background-color: inherit !important;
+  // }
+  //
+  // @include element ('diamond-column') {
+  //   background-color: inherit !important;
+  // }
+  //
+  // @include element ('gold-column') {
+  //   background-color: inherit !important;
+  // }
 
   @include element ('main') {
     @include float-row((
@@ -201,10 +201,10 @@
   }
 
   @include -add-sponsor('platinum', 1, $sponsor-rows, s(2), s($sponsor-scale, 700px));
-  @include -add-sponsor('diamond', 1, $sponsor-rows, s(2), s($sponsor-scale, 400px));
-  @include -add-sponsor('gold', 2, $sponsor-rows, s(2), s($sponsor-scale, 400px));
-  @include -add-sponsor('silver', 3, $sponsor-rows, s(2), s($sponsor-scale, 330px));
-  @include -add-sponsor('bronze', 4, $sponsor-rows, s(2), s($sponsor-scale, 200px));
-  @include -add-sponsor('partner', 8, $sponsor-rows, s(1), s($sponsor-scale, 110px));
+  @include -add-sponsor('diamond', 1, $sponsor-rows, s(2), s($sponsor-scale, 330px));
+  @include -add-sponsor('gold', 2, $sponsor-rows, s(2), s($sponsor-scale, 200px));
+  @include -add-sponsor('silver', 3, $sponsor-rows, s(2), s($sponsor-scale, 150px));
+  @include -add-sponsor('bronze', 4, $sponsor-rows, s(2), s($sponsor-scale, 130px));
+  @include -add-sponsor('partner', 8, $sponsor-rows, s(1), s($sponsor-scale, 80px));
 
 }
