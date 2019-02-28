@@ -10,7 +10,7 @@ call_for_paper_url: https://goo.gl/forms/JxrETiigAxFKfUt32
 call_for_paper: false
 talks_available: true
 schedule_available: false
-training_available: false
+training_available: true
 
 iubenda:
   cookiePolicyId: 13404179
