@@ -19,7 +19,7 @@ list:
   -
     id: Marion-Schleifer
     description: Software Developer, Community Lead & Organizer
-    image: Marion-Schleifer.jpg
+    image: marion-schleifer.jpg
     first_name: Marion	
     last_name: Schleifer
     twitter: rubydwarf
@@ -33,14 +33,14 @@ list:
   -
     id: Nick-Sutterer
     description: Creator of trailblazer.to 
-    image: Nick-Sutterer.jpg
+    image: nick-sutterer.jpg
     first_name: Nick
     last_name: Sutterer
     twitter: apotonick
   -
     id: Emily-Stolfo
     description: Senior Software Engineer @ Elastic
-    image: Emily-Stolfo.jpg
+    image: emily-stolfo.jpg
     first_name: Emily
     last_name: Stolfo
     twitter: emstolfo
