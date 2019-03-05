@@ -30,8 +30,20 @@ list:
     first_name: Bozhidar	
     last_name: Batsov
     twitter: bbatsov
-
-
+  -
+    id: Nick-Sutterer
+    description: Creator of trailblazer.to 
+    image: Nick-Sutterer.jpg
+    first_name: Nick
+    last_name: Sutterer
+    twitter: apotonick
+  -
+    id: Emily-Stolfo
+    description: Senior Software Engineer @ Elastic
+    image: Emily-Stolfo.jpg
+    first_name: Emily
+    last_name: Stolfo
+    twitter: emstolfo
 
 #  -
 #    id:
