@@ -33,7 +33,7 @@
   title: "Enterprise Ruby 2.1"
   keynote:
   extract: >
-   	In the past three years, the Trailblazer project has evolved from a simple service object implementation to an advanced business logic framework that can define, orchestrate and implement entire application workflows. Let's discover all those new concepts such as workflows, BPMN and state machines.
+    In the past three years, the Trailblazer project has evolved from a simple service object implementation to an advanced business logic framework that can define, orchestrate and implement entire application workflows. Let's discover all those new concepts such as workflows, BPMN and state machines.
 #-
 #  speaker_id:
 #  title:
