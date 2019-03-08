@@ -112,32 +112,13 @@
       </div>
       {% endif %}
 
+
       <div class="sponsors__category">
         <div class="sponsors__title-right">
           Media partners
         </div>
-        <div class="sponsors__partner"></div>
+        <div class="sponsors__partner" data-name="rubyday" data-tags="ruby"></div>
       </div>
-
-      {% if site.data.community.list | size %}
-        <div class="sponsors__category">
-          <div class="sponsors__title-right">
-            COMMUNITY
-          </div>
-          <div class="sponsors__partner">
-            {% for community in site.data.community.list %}
-              <div class="sponsors__partner-column">
-                <a href="{{ community.site }}" title="{{ community.name }}" class="sponsors__link">
-                  <div style="background-image: url({{ site.baseurl }}/img/rubyday/community/{{ community.image }})" class="sponsors__image"></div>
-                </a>
-              </div>
-            {% endfor %}
-
-          </div>
-        </div>
-      {% endif %}
-
-
 
     </div>
   </div>
