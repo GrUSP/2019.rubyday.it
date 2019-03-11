@@ -34,8 +34,9 @@
   keynote:
   extract: >
     In the past three years, the Trailblazer project has evolved from a simple service object implementation to an advanced business logic framework that can define, orchestrate and implement entire application workflows. Let's discover all those new concepts such as workflows, BPMN and state machines.
-#-
-#  speaker_id:
-#  title:
-#  keynote:
-#  extract: >
+-    
+  speaker_id: Elia-Schito
+  title: "Live code a game on the browser with Opal and Vue.js"
+  keynote:
+  extract: >
+   	JS is often a struggle for the Ruby developer used to live in the backend. We'll have a fresh look at the language implementing interfaces for a Tetris-like game for the terminal (using MRI) and for the browser (using Opal) using different techniques (vanilla JS, jQuery, Vue.js). The whole thing will be preceded by an introduction to Opal.
