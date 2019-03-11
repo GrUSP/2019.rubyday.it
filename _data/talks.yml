@@ -39,4 +39,4 @@
   title: "Live code a game on the browser with Opal and Vue.js"
   keynote:
   extract: >
-   	JS is often a struggle for the Ruby developer used to live in the backend. We'll have a fresh look at the language implementing interfaces for a Tetris-like game for the terminal (using MRI) and for the browser (using Opal) using different techniques (vanilla JS, jQuery, Vue.js). The whole thing will be preceded by an introduction to Opal.
+    JS is often a struggle for the Ruby developer used to live in the backend. We'll have a fresh look at the language implementing interfaces for a Tetris-like game for the terminal (using MRI) and for the browser (using Opal) using different techniques (vanilla JS, jQuery, Vue.js). The whole thing will be preceded by an introduction to Opal.
