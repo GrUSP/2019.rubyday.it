@@ -44,11 +44,10 @@ list:
     first_name: Emily
     last_name: Stolfo
     twitter: emstolfo
-
-#  -
-#    id:
-#    description:
-#    image:
-#    first_name:
-#    last_name:
-#    twitter:
+  -
+    id: Elia-Schito
+    description: 
+    image: elia-schito.jpg
+    first_name: Elia
+    last_name: Schito
+    twitter: 
