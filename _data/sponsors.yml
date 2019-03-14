@@ -103,3 +103,7 @@ bronze:
     - 2 tickets with 10% discount
   max: 32
   list:
+    -
+      url: https://www.toptal.com/?utm_source=rubyday
+      image: toptal.svg
+  
