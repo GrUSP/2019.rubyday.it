@@ -200,8 +200,8 @@
     }
   }
 
-  @include -add-sponsor('platinum', 1, $sponsor-rows, s(2), s($sponsor-scale, 700px));
   @include -add-sponsor('diamond', 1, $sponsor-rows, s(2), s($sponsor-scale, 330px));
+  @include -add-sponsor('platinum', 2, $sponsor-rows, s(2), s($sponsor-scale, 270px));
   @include -add-sponsor('gold', 2, $sponsor-rows, s(2), s($sponsor-scale, 200px));
   @include -add-sponsor('silver', 3, $sponsor-rows, s(2), s($sponsor-scale, 150px));
   @include -add-sponsor('bronze', 4, $sponsor-rows, s(2), s($sponsor-scale, 130px));

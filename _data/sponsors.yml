@@ -66,6 +66,9 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
+    -
+      url: https://www.cantierecreativo.net/?utm_source=rubyday
+      image: cantiere-creativo.svg
 
 gold:
   price: € 1,500
