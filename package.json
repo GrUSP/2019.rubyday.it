@@ -4,28 +4,27 @@
   "description": "Conference site",
   "main": "index.js",
   "devDependencies": {
-    "dustman": "^1.11.55",
+    "dustman": "github:grusp/dustman",
     "frontsize": "git+https://github.com/ideatosrl/frontsize.git#372f2a6",
     "gulp": "^4.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "cp ./node_modules/dustman/gulpfile.js .",
-    "dev": "./node_modules/.bin/gulp -S --config dustman-reactjsday.yml watch & jekyll serve"
+    "dev": "./node_modules/.bin/gulp -S --config dustman-rubyday.yml watch & jekyll serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrUSP/2017.reactjsday.it.git"
+    "url": "git+https://github.com/GrUSP/2019.rubyday.it.git"
   },
   "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GrUSP/2017.reactjsday.it/issues"
+    "url": "https://github.com/GrUSP/2019.rubyday.it/issues"
   },
-  "homepage": "https://github.com/GrUSP/2017.reactjsday.it#readme",
+  "homepage": "https://github.com/GrUSP/2019.rubyday.it#readme",
   "dependencies": {
-    "dustman": "^1.11.55",
     "jquery": "^3.1.1",
-    "moment": "^2.17.1"
+    "moment": "^2.24.0"
   }
 }
