@@ -28,7 +28,6 @@
         
         <span class="schedule__speaker">
         <a href="/talks.html#{{ speaker_id }}">
-
           {% if speaker_id.first %}
             {% for current_speaker_id in speaker_id %}
               {% for speaker in site.data.speakers.list %}
@@ -40,12 +39,12 @@
           {% else %}
             {% for speaker in site.data.speakers.list %}
             {% if speaker.id == speaker_id %}
-                {{ speaker.first_name }} {{ speaker.last_name }
+                {{ speaker.first_name }} {{ speaker.last_name }}
               {% break %}
             {% endif %}
             {% endfor %}
           {% endif %}
-             </a>
+        </a>
         </span>
 
       </div>
