@@ -57,4 +57,24 @@
       margin-top: s(-10);
     }
   }
+
+  @include element ('home') {
+    @include where-when;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-align: center;
+
+    @include media ('>=mobile-large') {
+      font-size: 28px;
+      text-align: left;
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 45px;
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 45px;
+    }
+  }
 }
