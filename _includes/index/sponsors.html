@@ -112,9 +112,25 @@
       </div>
       {% endif %}
 
+      {% if site.data.sponsors.stroopwaffel.list | size %}
+      <div class="sponsors__category">
+        <div class="sponsors__title">
+          stroopwaffel sponsor
+        </div>
+        <div class="sponsors__bronze">
+          {% for sponsor in site.data.sponsors.stroopwaffel.list %}
+          <div class="sponsors__bronze-column">
+            <a href="{{ sponsor.url }}" class="sponsors__link">
+              <div style="background-image:url('{{ site.baseurl }}/img/sponsors/{{ sponsor.image }}');" class="sponsors__image"></div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
 
       <div class="sponsors__category">
-        <div class="sponsors__title-right">
+        <div class="sponsors__title">
           Media partners
         </div>
         <div class="sponsors__partner" data-name="rubyday" data-tags="ruby"></div>

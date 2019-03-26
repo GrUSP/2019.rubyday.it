@@ -109,4 +109,10 @@ bronze:
     -
       url: https://www.toptal.com/?utm_source=rubyday
       image: toptal.svg
-  
+
+stroopwaffel:
+  list:
+    -
+      url: https://appsignal.com/?utm_source=rubyday
+      image: appsignal.svg
+
