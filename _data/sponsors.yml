@@ -97,6 +97,9 @@ silver:
     - 3 tickets with 10% discount
   max: 16
   list:
+    -
+      url: https://dnsimple.com/?utm_source=rubyday
+      image: dnsimple.svg
 
 bronze:
   price: € 500
